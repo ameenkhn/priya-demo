@@ -266,7 +266,7 @@
           <a href="#">Explore ${iconArrow()}</a>
           <ul class="sub-menu">
             <li><a class="${isActive(current, routes.about)}" href="${routes.about}">About Us</a></li>
-            <li><a class="${isActive(current, routes.highlights)}" href="${routes.highlights}">Clinic Highlights</a></li>
+            <li><a class="${isActive(current, routes.highlights)}" href="${routes.highlights}">Testimonials</a></li>
             <li><a class="${isActive(current, routes.gallery)}" href="${routes.gallery}">Gallery</a></li>
             <li><a class="${isActive(current, routes.faq)}" href="${routes.faq}">FAQs</a></li>
           </ul>
@@ -286,7 +286,7 @@
       <ul>
         <li><a href="${routes.home}" class="${isActive(current, routes.home)}">Home</a></li>
         <li><a class="${isActive(current, routes.about)}" href="${routes.about}">About Us</a></li>
-        <li><a class="${isActive(current, routes.highlights)}" href="${routes.highlights}">Clinic Highlights</a></li>
+        <li><a class="${isActive(current, routes.highlights)}" href="${routes.highlights}">Testimonials</a></li>
         <li><a class="${isActive(current, routes.gallery)}" href="${routes.gallery}">Gallery</a></li>
         <li><a class="${isActive(current, routes.faq)}" href="${routes.faq}">FAQs</a></li>
         <li><a href="${routes.services}" class="${isActive(current, routes.services)}">Services</a></li>
@@ -457,7 +457,7 @@
                 <h3>Quick Links</h3>
                 <ul>
                   <li><a class="${isActive(current, routes.about)}" href="${routes.about}">About Us</a></li>
-                  <li><a class="${isActive(current, routes.highlights)}" href="${routes.highlights}">Clinic Highlights</a></li>
+                  <li><a class="${isActive(current, routes.highlights)}" href="${routes.highlights}">Testimonials</a></li>
                   <li><a class="${isActive(current, routes.gallery)}" href="${routes.gallery}">Gallery</a></li>
                   <li><a class="${isActive(current, routes.faq)}" href="${routes.faq}">FAQs</a></li>
                   <li><a class="${isActive(current, routes.contact)}" href="${routes.contact}">Contact Us</a></li>
@@ -1642,7 +1642,7 @@
       [routes.home]: `${site.clinicName} | ${site.doctorName}`,
       [routes.about]: `${site.doctorName} | About`,
       [routes.services]: `${site.clinicName} | Services`,
-      [routes.highlights]: `${site.clinicName} | Clinic Highlights`,
+      [routes.highlights]: `${site.clinicName} | Testimonials`,
       [routes.gallery]: `${site.clinicName} | Gallery`,
       [routes.faq]: `${site.clinicName} | FAQs`,
       [routes.contact]: `${site.clinicName} | Contact`,
@@ -1661,7 +1661,7 @@
       [routes.home]: `Consult ${site.doctorName}, experienced Neonatologist & Pediatrician with 22+ years expertise. Compassionate newborn, child & adolescent care at ${site.clinicName}, Bengaluru.`,
       [routes.about]: `Learn about ${site.doctorName}, Consultant Neonatologist & Pediatrician with 22+ years of experience. MBBS, DCH, DNB Pediatrics, FIAP honoured. Trusted child care in Bengaluru.`,
       [routes.services]: `Pediatric & neonatal services including newborn care, vaccination, growth monitoring, allergy care, high-risk follow-up, and adolescent health at ${site.clinicName}.`,
-      [routes.highlights]: `View clinic highlights, professional recognitions, and achievements of ${site.doctorName} at ${site.clinicName}, Bengaluru.`,
+      [routes.highlights]: `Read patient testimonials and review highlights for ${site.doctorName} at ${site.clinicName}, Bengaluru.`,
       [routes.gallery]: `Photo gallery of ${site.clinicName} – clinic identity, doctor portrait, and professional recognitions of ${site.doctorName}.`,
       [routes.faq]: `Frequently asked questions about pediatric care, vaccination, newborn concerns, growth monitoring, and consultations with ${site.doctorName}.`,
       [routes.contact]: `Contact ${site.clinicName}. Phone: ${site.phoneDisplay}. Location: ${site.address}. Timings: ${site.timings} & ${site.eveningTimings}.`,
@@ -1864,8 +1864,7 @@
   }
 
   function rewriteHighlights() {
-    replace(".inner-header-section-area", innerHeader("Clinic Highlights", "Clinic Highlights"));
-    replaceBand(".testimonial-inner-area", ".cta4-section-area", highlightsSection());
+    replace(".inner-header-section-area", innerHeader("Testimonials", "Testimonials"));
   }
 
   function rewriteGallery() {

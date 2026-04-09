@@ -102,6 +102,64 @@ html {
   overflow: hidden;
 }
 
+body.priya-theme .homepage4-body .priya-nav-shell .vl-main-menu > nav > ul,
+.homepage4-body .priya-nav-shell .vl-main-menu > nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+body.priya-theme .homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li,
+.homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li {
+  position: relative;
+  margin: 0;
+}
+
+body.priya-theme .homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li > a,
+.homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 0;
+}
+
+body.priya-theme .homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li > .sub-menu,
+.homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li > .sub-menu {
+  display: block;
+  width: max-content;
+  min-width: 220px;
+  left: 50%;
+  top: calc(100% + 18px);
+  padding: 12px 0;
+  border-radius: 24px !important;
+  transform: translateX(-50%) scaleY(0);
+  transform-origin: top center;
+  z-index: 99;
+}
+
+body.priya-theme .homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li:hover > .sub-menu,
+.homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li:hover > .sub-menu {
+  top: calc(100% + 18px);
+  transform: translateX(-50%) scaleY(1);
+}
+
+body.priya-theme .homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li > .sub-menu li,
+.homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li > .sub-menu li {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+body.priya-theme .homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li > .sub-menu li a,
+.homepage4-body .priya-nav-shell .vl-main-menu > nav > ul > li > .sub-menu li a {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  padding: 12px 22px !important;
+}
+
 .vl-main-menu nav ul li ul.sub-menu li a:hover {
   background: var(--priya-primary-light) !important;
   padding-left: 24px !important;
