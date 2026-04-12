@@ -59,6 +59,17 @@ body.is-loading {
   overflow: hidden;
 }
 
+.social-share-fallback {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  width: 1200px;
+  height: 630px;
+  max-width: none;
+  opacity: 0.01;
+  pointer-events: none;
+}
+
 img {
   display: block;
   max-width: 100%;
