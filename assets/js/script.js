@@ -1,6 +1,6 @@
 const siteConfig = {
   clinicName: "THE CHILD & NEURO-SPINE CARE",
-  clinicTagline: "Child-friendly pediatrics, development, and neuro-spine support in RT Nagar",
+  clinicTagline: "Child, neonatal, and neuro-spine care in RT Nagar",
   phoneDisplay: "+91 94830 42740",
   phoneHref: "tel:+919483042740",
   email: "childandneurospinecare@gmail.com",
@@ -25,12 +25,12 @@ const siteConfig = {
     { id: "contact", label: "Contact", href: "contact.html" }
   ],
   footerServices: [
-    "Newborn care and feeding support",
-    "Vaccination and preventive planning",
-    "Growth and milestone tracking",
-    "Pediatric neurology review",
-    "Spine and posture concerns",
-    "Developmental follow-up"
+    "Child and neonatal care",
+    "Newborn follow-up and feeding support",
+    "Growth and developmental review",
+    "Pediatric and adolescent care",
+    "Neuro-spine consultations",
+    "Spine pain and surgical pathways"
   ]
 };
 
