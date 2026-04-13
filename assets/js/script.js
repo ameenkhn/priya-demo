@@ -79,10 +79,6 @@ function headerMarkup(pageId) {
             <i class="fa-solid fa-phone"></i>
             <span>Call</span>
           </a>
-          <a class="btn btn-primary nav-cta" href="${siteConfig.appointmentLink}" target="_blank" rel="noopener">
-            <i class="fa-solid fa-calendar-check"></i>
-            <span>Book Online Consultaion</span>
-          </a>
           <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-mobile-menu" data-nav-toggle>
             <i class="fa-solid fa-bars"></i>
           </button>
