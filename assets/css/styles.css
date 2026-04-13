@@ -577,13 +577,20 @@ body[data-page="faq"] .page-hero__copy h1 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 9px 12px;
+  min-height: 44px;
+  padding: 0 16px;
   border-radius: 999px;
-  background: rgba(255, 139, 167, 0.12);
-  color: var(--secondary);
+  background: linear-gradient(135deg, #ff7f95 0%, #ff5f7a 100%);
+  color: #fff;
   font-size: 0.88rem;
   font-weight: 800;
   white-space: nowrap;
+  box-shadow: 0 16px 28px rgba(255, 95, 122, 0.28);
+}
+
+.nav-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 34px rgba(255, 95, 122, 0.34);
 }
 
 .nav-cta {
@@ -3290,6 +3297,10 @@ body[data-page="faq"] .page-hero__copy h1 {
 
 @media (max-width: 1180px) {
   .nav-links {
+    display: none;
+  }
+
+  .nav-cta {
     display: none;
   }
 
