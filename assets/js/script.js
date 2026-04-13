@@ -9,7 +9,7 @@ const siteConfig = {
   mapLink: "https://www.google.com/maps?q=The+Child+and+Neuro+Spine+Care,+RT+Nagar,+Bengaluru+560032",
   mapEmbed:
     "https://www.google.com/maps?q=The+Child+and+Neuro+Spine+Care,+RT+Nagar,+Bengaluru+560032&output=embed",
-  appointmentLink: "https://priyashivalli.exlyapp.com/049aae21-1f39-4c8d-b54e-3b586f53eaff",
+  appointmentLink: "https://priyashivalli.exlyapp.com/plan/bb7b796f-a031-49b8-b7fc-497026ac1e95",
   whatsappLink:
     "https://api.whatsapp.com/send/?phone=%2B919483042740&text=Hello%21+I+would+like+to+book+an+appointment+for+my+child.&type=phone_number&app_absent=0",
   childLogo: "assets/img/logo/drpriya/nav-child-care.png",
