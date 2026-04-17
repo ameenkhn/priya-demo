@@ -3149,6 +3149,10 @@ body[data-page="faq"] .page-hero__copy h1 {
   color: var(--secondary);
 }
 
+.doctor-showcase-card__actions {
+  width: 100%;
+}
+
 .cta-band {
   padding-top: 28px;
   padding-bottom: 110px;

@@ -1,6 +1,6 @@
 const siteConfig = {
   clinicName: "THE CHILD & NEURO-SPINE CARE",
-  clinicTagline: "Child, neonatal, and neuro-spine care in RT Nagar",
+  clinicTagline: "Child, neonatal, adolescent, and neuro-spine care in RT Nagar",
   phoneDisplay: "+91 94830 42740",
   phoneHref: "tel:+919483042740",
   email: "childandneurospinecare@gmail.com",
@@ -25,12 +25,12 @@ const siteConfig = {
     { id: "contact", label: "Contact", href: "contact.html" }
   ],
   footerServices: [
-    "Child and neonatal care",
-    "Newborn follow-up and feeding support",
-    "Growth and developmental review",
-    "Pediatric and adolescent care",
-    "Neuro-spine consultations",
-    "Spine pain and surgical pathways"
+    "Newborn care, well-child visits, and vaccination",
+    "Lactation and nutrition counselling",
+    "Growth, development, and adolescent care",
+    "Neck pain, backache, and pain management",
+    "Spondylosis, tumours, and fracture care",
+    "Nerve injury, stroke, and epilepsy surgery review"
   ]
 };
 
@@ -165,7 +165,7 @@ function footerMarkup() {
               <a href="${siteConfig.phoneHref}"><i class="fa-solid fa-phone"></i><span>${siteConfig.phoneDisplay}</span></a>
               <a href="${siteConfig.emailHref}"><i class="fa-regular fa-envelope"></i><span>${siteConfig.email}</span></a>
               <a href="${siteConfig.mapLink}" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i><span>${siteConfig.address}</span></a>
-              <a href="${siteConfig.appointmentLink}" target="_blank" rel="noopener"><i class="fa-solid fa-calendar-check"></i><span>Book Online Consultaion</span></a>
+              <a href="${siteConfig.appointmentLink}" target="_blank" rel="noopener"><i class="fa-solid fa-calendar-check"></i><span>Book Online Consultation</span></a>
             </div>
             <div class="footer-social" aria-label="Clinic links">
               <a href="${siteConfig.whatsappLink}" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
