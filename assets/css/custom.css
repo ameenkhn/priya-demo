@@ -527,7 +527,7 @@
 /* Title — navy with a brand-blue gradient accent line */
 .home-index .hero4-section-area .hero-header h1.cnsc-hero-title{
   color:var(--ztc-text-text-11);font-family:var(--ztc-family-font1);
-  font-weight:var(--ztc-weight-semibold);letter-spacing:normal;line-height:1.07;
+  font-weight:800;letter-spacing:normal;line-height:1.07;
   font-size:54px;margin:0 0 20px;max-width:600px;padding-right:0;
 }
 /* match the section headings below — single consistent colour, no accent */
@@ -950,4 +950,51 @@
 
   /* Service carousel card image a touch shorter */
   .service4-section-area .service4-slider-area .service4-boxarea .img1{height:200px !important}
+}
+
+/* ===== Flattened top-level nav (Explore removed → 7 items) ===== */
+/* Spread the items evenly across the same column; keep the header
+   height unchanged by fitting everything on a single row. */
+.homepage4-body .vl-main-menu ul{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.homepage4-body .vl-main-menu ul > li{white-space:nowrap;}
+.homepage4-body .vl-main-menu ul > li > a{
+  padding:0 9px;
+  font-size:18px;
+}
+/* Tighter on the smaller desktop range so nothing overflows the column */
+@media (min-width:992px) and (max-width:1199px){
+  .homepage4-body .vl-main-menu ul > li > a{padding:0 5px;font-size:15.5px;}
+}
+
+/* ===== Header call button — icon only (phone number text removed) ===== */
+.homepage4-body .vl-hero-btn .btn-area1 .phone{
+  display:inline-flex !important;
+  align-items:center;
+  justify-content:center;
+  width:46px;
+  height:46px;
+  padding:0;
+  border-radius:50%;
+  background:#eaf2fc;
+  transition:background .25s ease,transform .25s ease;
+  flex-shrink:0;
+}
+.homepage4-body .vl-hero-btn .btn-area1 .phone:hover{
+  background:#d6e8fb;transform:translateY(-2px);
+}
+.homepage4-body .vl-hero-btn .btn-area1 .phone::after{display:none}
+.homepage4-body .vl-hero-btn .btn-area1 .phone svg{width:20px;height:20px;margin:0}
+.homepage4-body .vl-hero-btn .btn-area1 .phone:hover svg{filter:none}
+/* Keep the icon button + Schedule button on one row in the narrower column */
+@media (min-width:992px) and (max-width:1199px){
+  .homepage4-body .vl-hero-btn .btn-area1 .vl-btn4{padding:12px 14px;font-size:14px}
+  .homepage4-body .vl-hero-btn .btn-area1 .phone{width:42px;height:42px}
 }
